@@ -269,14 +269,14 @@ section{
 .hero-text h5{
     display:inline-flex;
     align-items:center;
-    gap:12px;
+    gap:8px;
     color:#fff;
     font-weight:600;
-    font-size:.78rem;
-    letter-spacing:.16em;
+    font-size:.66rem;
+    letter-spacing:.13em;
     text-transform:uppercase;
-    margin-bottom:28px;
-    padding:12px 22px;
+    margin-bottom:22px;
+    padding:7px 14px;
     border-radius:999px;
     background:rgba(255,255,255,.05);
     border:1px solid rgba(255,255,255,.16);
@@ -285,8 +285,8 @@ section{
 
 .hero-text h5::before{
     content:"";
-    width:8px;
-    height:8px;
+    width:6px;
+    height:6px;
     border-radius:50%;
     background:var(--purple);
     box-shadow:0 0 12px var(--purple);
@@ -1994,10 +1994,13 @@ section{
         display:none;
     }
 
-    .hero{
-        min-height:auto;
-        padding-top:125px;
-        padding-bottom:30px;
+.hero{
+        min-height:100svh;
+        min-height:100dvh;
+        align-items:flex-start;
+        padding-top:146px;
+        padding-bottom:24px;
+        box-sizing:border-box;
     }
 
     .hero-buttons{
